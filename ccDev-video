@@ -1,11 +1,20 @@
 ----------------------
 --------- IP ---------
 ----------------------
-
-[Base Teste5] 189.127.165.201-video
-
-[Base Teste3] 189.127.165.204-video
-
-[Base Teste2] 189.127.165.255-video
-
-[Base Teste4] 189.127.165.321-video
+ccAuth {
+    ["Base Teste"] = {
+        clientIp = "179.248.208.224",
+        sufixos = {
+            "video", 
+            "audio",
+        }
+    },
+    ["Another Client"] = {
+        clientIp = "192.168.1.1",
+        sufixos = {
+            "script1",
+            "script2",
+            -- Add more suffixes as needed
+        }
+    },
+}
