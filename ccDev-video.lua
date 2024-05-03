@@ -1,9 +1,8 @@
-
-[[ccAuth {
+return {
     ["Base Teste"] = {
         clientIp = "179.248.208.224",
         sufixos = {
-            "video", 
+            "video",
             "audio",
         }
     },
@@ -16,4 +15,3 @@
         }
     },
 }
-]]
